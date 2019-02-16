@@ -27,7 +27,7 @@ Funcoes func = new Funcoes();
 
         subtrai = func.subtraiNumeros(3, 2);
 
-        divide = func.divideNumeros(4, 5);
+        divide = func.divideNumeros(10, 5);
 
         //imprimindo no console os resultados
         
