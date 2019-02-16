@@ -6,7 +6,7 @@ public class Revisao_java {
 
     //metodo de inicializacao da classe
     public static void main(String[] args) {
-        System.out.println("Método Main");
+        
 //instanciando a classe Funcoes
 
 Funcoes func = new Funcoes();
