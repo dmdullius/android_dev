@@ -25,10 +25,12 @@ Funcoes func = new Funcoes();
 
         multiplica = func.multiplicaNumeros(2, 3);
 
-        subtrai = func.subtraiNumeros(2, 3);
+        subtrai = func.subtraiNumeros(3, 2);
 
         divide = func.divideNumeros(4, 5);
 
+        //imprimindo no console os resultados
+        
         System.out.println("soma = " + soma);
 
         System.out.println("subtração = " + subtrai);
