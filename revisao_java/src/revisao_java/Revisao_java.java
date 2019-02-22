@@ -1,13 +1,14 @@
 package revisao_java;
 
+import revisao_java.Funcoes.*;
+
 public class Revisao_java {
 
     //metodo de inicializacao da classe
     public static void main(String[] args) {
-        
-//instanciando a classe Funcoes
 
-Funcoes func = new Funcoes();
+//instanciando a classe Funcoes
+        Funcoes func = new Funcoes();
 
 //declarar variavel do tipo inteiro
         int soma;
@@ -17,7 +18,7 @@ Funcoes func = new Funcoes();
         int subtrai = func.subtraiNumeros(2, 3);
 
         int divide = func.divideNumeros(4, 5);
-
+        //aula 1
         //atribuir o valor retornado
         soma = Funcoes.somarNumeros(2, 3);
 
@@ -37,6 +38,24 @@ Funcoes func = new Funcoes();
 
         System.out.println("divisão = " + divide);
 
+        //aula 2
+        System.out.println("----------AULA_2-----------");
+        System.out.println("Olá Mundo");
+       
+         imprimirMensagem();
+        
+        
+
+    }
+
+    private static void imprimirMensagem() {
+        System.out.println("------------METODO IMPRIMIR-------------");
+        System.out.println("MENSAGEM");
+        int x = 5 * 6;
+        System.out.println("RESULTADO = " + x);
+        System.out.println("----------------------------------------");
+        
+        
     }
 
 }
