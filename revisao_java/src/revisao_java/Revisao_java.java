@@ -1,7 +1,5 @@
 package revisao_java;
 
-import revisao_java.Funcoes.*;
-
 public class Revisao_java {
 
     //metodo de inicializacao da classe
