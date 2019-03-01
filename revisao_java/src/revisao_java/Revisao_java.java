@@ -1,7 +1,5 @@
 package revisao_java;
 
-import revisao_java.Funcoes.*;
-
 public class Revisao_java {
 
     //metodo de inicializacao da classe
@@ -13,11 +11,22 @@ public class Revisao_java {
 //declarar variavel do tipo inteiro
         int soma;
 
-        int multiplica = func.multiplicaNumeros(2, 3);
+        int multiplica;
 
-        int subtrai = func.subtraiNumeros(2, 3);
+        int subtrai;
 
-        int divide = func.divideNumeros(4, 5);
+        int divide;
+
+        int multiplica_a = Funcoes.multiplicaNumeros_a(Funcoes.num);
+
+        int soma_a = Funcoes.somarNumeros_a(Funcoes.num);
+
+        double divide_a = Funcoes.divideNumeros(Funcoes.num);
+        
+        int subtrai_a = Funcoes.subtraiNumeros_a(Funcoes.num);
+        
+        
+
         //aula 1
         //atribuir o valor retornado
         soma = Funcoes.somarNumeros(2, 3);
@@ -29,7 +38,6 @@ public class Revisao_java {
         divide = func.divideNumeros(10, 5);
 
         //imprimindo no console os resultados
-        
         System.out.println("soma = " + soma);
 
         System.out.println("subtração = " + subtrai);
@@ -41,21 +49,24 @@ public class Revisao_java {
         //aula 2
         System.out.println("----------AULA_2-----------");
         System.out.println("Olá Mundo");
-       
-         imprimirMensagem();
-        
-        
+        //----------------------------------------------------------------------------------------------
+        System.out.println("-----------Metodos com array-----------");
 
-    }
-
-    private static void imprimirMensagem() {
-        System.out.println("------------METODO IMPRIMIR-------------");
-        System.out.println("MENSAGEM");
-        int x = 5 * 6;
-        System.out.println("RESULTADO = " + x);
+        System.out.println("Resultado da soma: " + soma_a);
         System.out.println("----------------------------------------");
+        System.out.println("Resultado da multiplicação: " + multiplica_a);
+        System.out.println("----------------------------------------");
+        System.out.println("Resultado da divisão: " + divide_a);
+        System.out.println("----------------------------------------");
+        System.out.println("Resultado da subtração: " +subtrai_a);
+        System.out.println("----------------------------------------");
+        for(int i = 0; i<=1000; i++){
+        double numero_aleatorio = (Math.random()*11) +1;
+        System.out.println("Numero gerado: " + (int) numero_aleatorio);
+        }
+         System.out.println("----------------------------------------");
         
-        
+
     }
 
 }
