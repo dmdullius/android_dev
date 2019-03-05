@@ -22,10 +22,8 @@ public class Revisao_java {
         int soma_a = Funcoes.somarNumeros_a(Funcoes.num);
 
         double divide_a = Funcoes.divideNumeros(Funcoes.num);
-        
+        double numeros_sorteados_mr = 0;
         int subtrai_a = Funcoes.subtraiNumeros_a(Funcoes.num);
-        
-        
 
         //aula 1
         //atribuir o valor retornado
@@ -58,15 +56,23 @@ public class Revisao_java {
         System.out.println("----------------------------------------");
         System.out.println("Resultado da divisão: " + divide_a);
         System.out.println("----------------------------------------");
-        System.out.println("Resultado da subtração: " +subtrai_a);
+        System.out.println("Resultado da subtração: " + subtrai_a);
         System.out.println("----------------------------------------");
-        for(int i = 0; i<=1000; i++){
-        double numero_aleatorio = (Math.random()*11) +1;
-        System.out.println("Numero gerado: " + (int) numero_aleatorio);
+        for (int i = 0; i <= 1000; i++) {
+            double numero_aleatorio = (Math.random() * 11) + 1;
+            System.out.println("Numero gerado: " + (int) numero_aleatorio);
         }
-         System.out.println("----------------------------------------");
+        System.out.println("----------------------------------------");
+
+         for (int i = 1; i <= 6; i++) {
+            
+            numeros_sorteados_mr = (Math.random() * 5) +1;
+            
+            System.out.println("Numeros sorteados: " + (int) numeros_sorteados_mr);
+
+        }
         
-
+        System.out.println("----------------------------------------");
     }
-
 }
+
